@@ -1,0 +1,91 @@
+.main{
+    background-color: yellow;
+}
+ol{
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+.test{
+    margin-left: 30%;
+}
+.test1{
+    margin: 20px 0px 0px 30%;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: 1s ease-in-out 0.5s;
+}
+.test1:hover{
+    width: 300px;
+}
+.test2{
+    margin: 20px 0px 0px 30%;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: 1s ease-in 0.5s; 
+
+}
+.test2:hover{
+    height: 200px;
+    width: 200px;
+}
+
+.test3{
+    margin: 20px 0px 0px 30%;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: 2s ease 0.5s;  
+}
+.test3:hover{
+    width: 300px;
+    
+    
+}
+.test4{
+    margin: 20px 0px 0px 30%;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: 2s ease-in 0.5s;  
+}
+.test4:hover{
+    width: 300px;
+}
+.test5{
+    margin: 20px 0px 0px 30%;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: 2s ease-out 0.5s;  
+}
+.test5:hover{
+    width: 300px;
+}
+.test6{
+    margin: 20px 0px 0px 30%;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: 2s ease-in-out 0.5s;
+    
+}
+.test6:hover{
+    width: 300px;
+}
+.test7{
+    margin: 20px 0px 0px 30%;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transition: 2s linear 0.5s;
+}
+.test7:hover{
+    width: 300px;   
+}
+.test8{
+    margin-left:35%;
+    margin-top: 20px;
+    font-size: 20px;
+}

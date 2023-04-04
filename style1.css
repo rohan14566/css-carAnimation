@@ -1,0 +1,220 @@
+.main{
+    background-color:yellow;
+}
+.para{
+    margin-left: 25%;
+}
+.test{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.test1{
+    background-color:teal;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: nik 2s infinite alternate-reverse;
+}
+@keyframes nik {
+    from{
+        transform: skewX(20deg);
+    }
+    to{
+        transform: skewX(-20deg);
+    }
+}
+.test2{
+    background-color:teal;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: nik 2s infinite alternate-reverse;
+}
+@keyframes nik {
+    from{
+        transform: skewX(20deg);
+    }
+    to{
+        transform: skewX(-20deg);
+    }
+}
+    
+.test3{
+    background-color:teal;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: nik 2s infinite alternate-reverse;
+}
+@keyframes nik {
+    from{
+        transform:skewX(20deg);
+    }
+    to{
+        transform: skewX(-20deg);
+    }
+}
+.box{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    background-color:violet;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: ank 2s infinite alternate-reverse;
+}
+@keyframes ank {
+    from{
+        transform: skewY(20deg);
+    }
+    to{
+        transform: skewY(-20deg);
+    }
+}
+.box2{
+    background-color:violet;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: ank 2s infinite alternate-reverse;
+}
+@keyframes ank {
+    from{
+        transform: skewY(20deg);
+    }
+    to{
+        transform:skewY(-20deg);
+    }
+}
+.box3{
+    background-color:violet;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: ank 2s infinite alternate-reverse;
+}
+@keyframes ank {
+    from{
+        transform: skewY(20deg);
+    }
+    to{
+        transform: skewY(-20deg);
+    }
+}
+.contain{
+    width:60%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.contain1{
+    background-color:teal;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: rotate 2s ease-in 2s infinite;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.contain2{
+    background-color:teal;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: rotate 2s ease-in 2s infinite;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+}
+.contain3{
+    background-color:teal;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: rotate 2s ease-in 2s infinite;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.container{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container1{
+    background-color:teal;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: high 1s ease-out  1s alternate-reverse  infinite;
+}
+@keyframes high {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0.8);
+    }
+    
+}
+.container2{
+    background-color:brown;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    margin: 20px 0px 40px 0px;
+    animation: rohan 1s linear  1s alternate-reverse  infinite;
+}
+@keyframes rohan {
+    from{
+        width: 100px;
+         
+    }
+    to{
+        width: 50px;
+    }
+}
+.container3{
+    background-color:green;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 40px 0px;
+    animation: rotate 3s ease-in 3s alternate-reverse infinite;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(90deg);
+    }
+}
+.animation{ 
+    margin-left:25%;
+    margin-top: 10px;
+    font-size: 22px;
+    
+}
